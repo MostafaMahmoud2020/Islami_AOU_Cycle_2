@@ -6,9 +6,9 @@ class SebhaTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Container(
-      width: 200,
-      height: 200,
-      color: Colors.red,
+      width: 300,
+      height: 300,
+      color: Colors.green,
     );
   }
 }
