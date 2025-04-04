@@ -44,7 +44,7 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
               padding: EdgeInsets.all(8),
               child: Card(
                 elevation: 5,
-                color: MyThemeData.whiteColor,
+                color: Theme.of(context).colorScheme.primary,
                 child: Column(
                   crossAxisAlignment:  CrossAxisAlignment.stretch,
                   children: [
